@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Rolling News - SIT Nagpur</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #3a5a91;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #f0f0f0;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #3a5a91;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #1f3c75;
+            text-decoration: underline;
+        }
+
+        .main {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            gap: 20px;
+            padding: 30px;
+        }
+
+        .tech-news,
+        .register {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            width: 30%;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .marquee {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            font-weight: bold;
+            white-space: nowrap;
+            overflow: hidden;
+            width: 30%;
+            text-align: center;
+            border-radius: 0;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .register button {
+            background-color: #3a5a91;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+
+        .register button:hover {
+            background-color: #2e4970;
+        }
+
+        footer {
+            background-color: #3a5a91;
+            color: white;
+            text-align: center;
+            padding: 15px 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            margin-top: 50px;
+            font-size: 14px;
+        }
+
+        img.logo {
+            width: 100px;
+            margin-top: 10px;
+        }
+
+        /* Responsive design */
+        @media (max-width: 768px) {
+            .main {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .tech-news,
+            .register,
+            .marquee {
+                width: 90%;
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>SIT Nagpur News Portal</h1>
+    </header>
+
+    <nav>
+        <a href="https://sitnagpur.edu.in/">SIT Website</a>
+        <a href="https://timesofindia.indiatimes.com/">Latest News</a>
+        <a href="https://sitnagpur.edu.in/contactus">Contact Us</a>
+    </nav>
+
+    <div class="main">
+        <div class="tech-news">
+            <h2>Tech News</h2>
+            <p>Stay updated on technology trends and AI advancements.</p>
+            <a href="https://openai.com/" target="_blank">
+                <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/4/4d/OpenAI_Logo.svg"
+                    alt="OpenAI Logo"
+                    class="logo"
+                />
+            </a>
+        </div>
+
+        <div class="marquee">
+            <marquee behavior="scroll" direction="left">
+                <a href="https://www.siu.edu.in/" style="color:white; margin-right: 30px;">Visit SIU Website</a> |
+                <a href="https://sitnagpur.edu.in/first-year-admission-procedure" style="color:white; margin: 0 30px;">Admission 2025</a> |
+                <a href="https://lms.sitnagpur.edu.in/" style="color:white; margin: 0 30px;">Moodle (Attendance)</a> 
+            </marquee>
+        </div>
+
+        <div class="register">
+            <h2>Register Now</h2>
+            <p>Click below to join upcoming events.</p>
+            <button>Register</button>
+        </div>
+    </div>
+
+    <footer>
+        Contact: info@sitnagpur.ac.in | Phone: +91-1234567890
+    </footer>
+</body>
+</html>
