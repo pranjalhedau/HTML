@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Grades</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #f9f9f9;
+        }
+        h2 {
+            color: #333;
+        }
+        table {
+            border-collapse: collapse;
+            width: 80%;
+            margin-bottom: 40px;
+            background: white;
+            box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+    <body>
+        <h2>Section A-Students</h2>
+        <table>
+            <tr>
+                <th>Roll No.</td>
+                <th>Name</td>
+                <th>Grade</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Kulshree Jagtap</td>
+                <td>A</td>
+            </tr>
+        </table>
+        <h2>Section B-Students</h2>
+        <table>
+            <tr>
+                <th>Roll no.</th>
+                <th>Name</th>
+                <th>Grade</th>
+            </tr>
+            <tr>
+                <td>54</td>
+                <td>Moksha Kindarle</td>
+                <td>B</td>
+            </tr>
+        </table>
+    </body>
+</html>
