@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My First Webpage</title>
+</head>
+<body>
+  <h1>Welcome to my webpage</h1>
+  <p>This is a paragraph of text.</p>
+
+  <h2>About Me</h2>
+  <p>I love learning HTML.</p>
+
+  <h3>My Picture</h3>
+  <img src="C:\Users\Dell\Documents\notepad.tinker\amethyst-aquarius-birthstone.jpg" alt="GEMSTONE">
+
+  <h2>Useful Links</h2>
+  <ul>
+    <li><a href="https:\\sitnagpur.edu.in\" target="_blank">Visit SIT Website</a></li>  
+    <li><a href="https:\\chatgpt.com\" target="_blank">Visit ChatGPT</a></li>
+  </ul>
+  <h2>Learning HTML</h2>
+  <ol>
+    <li>Practice CSS</li>
+    <li>Build a website</li>
+    <li>Learn HTML</li>
+  </ol>
+</body>
+</html>
