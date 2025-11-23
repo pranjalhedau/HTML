@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>My Web Page</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="This is sample HTML Page">
+    <meta name="author" content="RLB">
+    <!--Internal CSS Styling-->
+    <style>
+        body{
+            font-family:Arial,sans-serif;
+            background-color: #e6e6fa;
+            color: #333;
+            text-align: center;
+            padding: 100px;
+        }
+        h1{
+            color:red;
+            font-size:3em;
+        }
+        p{
+            font-size:1.2em;
+        }
+    </style>
+    <div style="padding:20px;border:2px solid black;">Hello this box has padding!</div>
+    </head>
+    <body>
+        <h1>Welcome to Kulshree's WebPage</h1>
+        <p>This is the content that users will see</p>
+    </body>
+</html>
